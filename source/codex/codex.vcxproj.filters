@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="plugin">
+      <UniqueIdentifier>{252b0016-4040-4a09-a7b6-58ea0881e5df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{7ca6345c-d61b-40f2-827d-baba608cc3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\controls">
+      <UniqueIdentifier>{dbbb8f50-14db-4bd3-9a1a-92d20eedb6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\icons">
+      <UniqueIdentifier>{db444237-5260-4657-aa04-0eeaa0f90a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\images">
+      <UniqueIdentifier>{09548e51-0c7b-4bb3-9a19-664b444efa1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\gui">
+      <UniqueIdentifier>{efae424a-1ef0-4b87-a339-cc84e691e870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\settings">
+      <UniqueIdentifier>{ddecd395-a77b-4923-aa58-3dbec70bfff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\details">
+      <UniqueIdentifier>{5eccfd3a-5678-4042-af7e-ce97b143f6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\dependencies">
+      <UniqueIdentifier>{4b59d669-4182-4a82-8101-49a983b027f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\controls\callback">
+      <UniqueIdentifier>{0f1cd2b2-3297-4602-8c04-6cb14adfa553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\scripts">
+      <UniqueIdentifier>{a4660a6d-de5b-4345-be99-86b1f219ad87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\forms">
+      <UniqueIdentifier>{cc948583-5702-4f11-9409-c997e137fbf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\forms\about">
+      <UniqueIdentifier>{afeed329-26e0-44de-be38-fb4b95cfc219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\helpers">
+      <UniqueIdentifier>{c7c80282-0707-473f-992f-e75ffb18bdb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="plugin.cpp">
+      <Filter>plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin.controls.cpp">
+      <Filter>plugin\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin.gui.cpp">
+      <Filter>plugin\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin.settings.cpp">
+      <Filter>plugin\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin.controls.callback.cpp">
+      <Filter>plugin\controls\callback</Filter>
+    </ClCompile>
+    <ClCompile Include="form_about.cpp">
+      <Filter>plugin\forms\about</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plugin.hpp">
+      <Filter>plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.controls.hpp">
+      <Filter>plugin\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.gui.hpp">
+      <Filter>plugin\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.settings.hpp">
+      <Filter>plugin\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.details.hpp">
+      <Filter>plugin\details</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.controls.callback.hpp">
+      <Filter>plugin\controls\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.scripts.hpp">
+      <Filter>plugin\scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="form_about.h">
+      <Filter>plugin\forms\about</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.helpers.hpp">
+      <Filter>plugin\helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="plugin.dependencies.hpp">
+      <Filter>plugin\dependencies</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="codex.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\books.png">
+      <Filter>resources\icons</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
