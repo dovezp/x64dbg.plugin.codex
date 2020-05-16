@@ -1,29 +1,35 @@
-# Codex - Simplifying Python-based Solutions for x64dbg
-Welcome to Codex, your go-to solution for managing and executing Python-based scripts within x64dbg! Codex is an innovative plugin designed to streamline your workflow in x64dbg. It offers a seamless way to store and execute Python-based solutions directly from the disassembler context menu and the x64dbg top plugins menu.
+# Codex - Python-based Management Plugin
+Welcome to Codex, your go-to solution for managing and executing Python-based scripts within [x64dbg](https://x64dbg.com/)! Codex is an innovative plugin designed to streamline your workflow in x64dbg. It offers a seamless way to store and execute Python-based solutions directly from the disassembler context menu and the x64dbg top plugins menu.
 
 ### Key Features
 * Effortless Integration: Codex seamlessly integrates with x64dbg, offering a user-friendly interface to manage and execute Python scripts.
 * Quick Access Execution: Execute Python-based solutions with just a few clicks, enhancing your debugging efficiency.
 * Flexible Configuration: Customize menu items, folder structures, and script names to match your workflow.
 
-### Feature Demo
-See the Codex Plugin in action:
-
-https://github.com/dovezp/x64dbg.plugin.codex/assets/89095890/ae2892c7-ec0e-40c7-b894-08ae97943743
-
 ### Requirements
 To harness the power of Codex, ensure you have the following components:
 
 * Windows Operating System
+    * Visual Studio 2015
     * [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-US/download/details.aspx?id=48145)
     * [Microsoft .NET Framework 4](https://www.microsoft.com/en-US/download/details.aspx?id=17718)
 * x64dbgpy Plugin
     * Python 2.7 (PyQt4, PyQt5, and PySide)
 
 ### Getting Started
-1. Download the latest [release](https://github.com/dovezp/x64dbg.plugin.codex/releases) build of Codex.
-2. Extract the release folder to x64dbg's root directory.
-3. Install x64dbgpy and ensure PyQt4, PyQt5, and PySide are located within `"...\plugins\x64dbgpy\".`
+0. Install x64dbgpy and ensure PyQt4, PyQt5, and PySide are located within `"...\plugins\x64dbgpy\".`
+1. Clone the Codex repository to your local machine using your preferred method, such as Git CLI or a GUI client.
+2. Navigate to the cloned repository folder and locate the "x64dbg.plugin.codex.sln" solution file. Double-click it to open it in Visual Studio 2015.
+3. Once the solution is open, you might need to configure the build settings to match your environment:
+    1. Select your desired build mode (e.g., Debug or Release).
+    2. Choose the targeted platform (x86 or x64) based on your system architecture.
+4. Build the solution by clicking the "Build" menu at the top and selecting "Build Solution" or by pressing Ctrl + Shift + B. Visual Studio will compile the project and generate the necessary binaries.
+5. After the build process completes successfully, navigate to the "build" folder within the repository directory. You should find the built binaries and any associated files generated during the build.
+6. Copy the built binaries to your x64dbg plugin directory.
+7. Create a directory called `codex`.
+8. Create a `settings.json` file in your x64dbg plugin `codex` directory.
+9. Edit the settings in `"...\plugins\codex\settings.json"` to customize menu items and organize scripts. Follow the example template below for reference.
+
 
 ### Simplified Context Menus
 
