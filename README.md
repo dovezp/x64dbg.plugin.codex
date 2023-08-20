@@ -38,7 +38,6 @@ Oreans - OEP Finder (Universal)
 Here's a glimpse of the default settings.json structure:
 
 ```json
-Copy code
 {
     "settings": {
         "scripts": {
