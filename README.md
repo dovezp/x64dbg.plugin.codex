@@ -1,4 +1,4 @@
-# 🧩📚 Codex - Simplifying Python-based Solutions for x64dbg
+# Codex - Simplifying Python-based Solutions for x64dbg
 Welcome to Codex, your go-to solution for managing and executing Python-based scripts within x64dbg! Codex is an innovative plugin designed to streamline your workflow in x64dbg. It offers a seamless way to store and execute Python-based solutions directly from the disassembler context menu and the x64dbg top plugins menu.
 
 ### Key Features
