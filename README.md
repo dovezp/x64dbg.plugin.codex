@@ -25,17 +25,28 @@ To harness the power of Codex, ensure you have the following components:
 2. Extract the release folder to x64dbg's root directory.
 3. Install x64dbgpy and ensure PyQt4, PyQt5, and PySide are located within `"...\plugins\x64dbgpy\".`
 
+### Simplified Context Menus
+
+Codex brings simplicity to your workflow by providing context menus accessible both on the general menu bar and the disassembly window. This enables you to seamlessly manage and execute your Python-based scripts right where you need them.
+
+#### Menu Bar Context
+
+Easily access and execute your favorite scripts through the menu bar. Codex integrates directly into the menu structure, offering a straightforward way to enhance your debugging capabilities.
+
+#### Disassembly Window Context
+
+When deep-diving into disassembly, Codex ensures your scripts are just a click away. The disassembly window context menu gives you quick access to script execution, reducing the time spent switching between tools.
+
+Now you can work more efficiently and focus on what matters most: solving intricate debugging challenges.
+
 ### Configuration and Usage
 * Edit the settings in `"...\plugins\codex\settings.json"` to customize menu items and organize scripts.
 * You can create nested folders, making organization a breeze.
 * Simplify script names for a clearer understanding of their purpose.
 * Each script can import and use additional files, enhancing versatility.
 
-### Examples
-To see Codex in action, check out my example script:
-
-Oreans - OEP Finder (Universal)
-Here's a glimpse of the default settings.json structure:
+#### Example
+To get an idea of how to apply Codex to best fit your needs, check out my featured demo script's `settings.json` structure:
 
 ```json
 {
