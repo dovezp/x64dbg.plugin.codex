@@ -1,7 +1,7 @@
 /**
  * \brief   plugin - details
- * \author  quosego
- * \contact https://github.com/quosego
+ * \author  dovezp
+ * \contact https://github.com/dovezp
  * \version 2020/MAY/23
  * \license Apache License 2.0 (Apache-2.0)
  */
@@ -20,7 +20,7 @@
 #define PLUGIN_BUILD __DATE__ " @ " __TIME__
 #define PLUGIN_NAME "Codex"
 
-#define PLUGIN_AUTHOR			"quosego"
+#define PLUGIN_AUTHOR			"dovezp"
 #define PLUGIN_AUTHOR_CONTACT	"https://github.com/" PLUGIN_AUTHOR
 #define PLUGIN_BUILD_LINK		PLUGIN_AUTHOR_CONTACT "/x64dbg.plugin.codex"
 

@@ -82,7 +82,7 @@ namespace codex {
 			this->lbl_dev->Name = L"lbl_dev";
 			this->lbl_dev->Size = System::Drawing::Size(42, 13);
 			this->lbl_dev->TabIndex = 1;
-			this->lbl_dev->Text = L"quosego";
+			this->lbl_dev->Text = L"dovezp";
 			// 
 			// form_about
 			// 

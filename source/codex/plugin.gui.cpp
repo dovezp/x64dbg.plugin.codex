@@ -1,7 +1,7 @@
 /**
  * \brief   plugin - gui
- * \author  quosego
- * \contact https://github.com/quosego
+ * \author  dovezp
+ * \contact https://github.com/dovezp
  * \version 2020/MAY/21
  * \license Apache License 2.0 (Apache-2.0)
  */
