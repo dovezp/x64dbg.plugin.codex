@@ -9,7 +9,7 @@ Welcome to Codex, your go-to solution for managing and executing Python-based sc
 ### Feature Demo
 See the Codex Plugin in action:
 
-https://github.com/dovezp/x64dbg.plugin.codex/assets/89095890/4c32ca00-cfe9-4bd5-ab10-0d5b3c3185ed
+https://github.com/dovezp/x64dbg.plugin.codex/assets/89095890/ae2892c7-ec0e-40c7-b894-08ae97943743
 
 ### Requirements
 To harness the power of Codex, ensure you have the following components:
